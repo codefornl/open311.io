@@ -1,0 +1,26 @@
+{
+  "name": "open311.io",
+  "description": "open311 meta-server",
+  "version": "0.0.1",
+  "license": "GPL-3.0+",
+  "author": {
+    "name": "Milo van der Linden",
+    "email": "milo@dogodigi.net",
+    "url": "https://www.open311.io"
+  },
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "test": "NODE_ENV=test mocha test/ --timeout 30000 --reporter spec --bail test/"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "compression": "^1.4.3",
+    "errorhandler": "^1.4.2",
+    "express": "4.13.3",
+    "sequelize": "^3.13.0",
+    "sqlite3": "^3.1.1"
+  },
+  "devDependencies": {
+  }
+}

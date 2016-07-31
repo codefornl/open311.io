@@ -3,6 +3,10 @@ logs
 *.log
 npm-debug.log*
 
+config.json
+*~
+*.sqlite
+
 # Runtime data
 pids
 *.pid
@@ -14,6 +18,7 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 
+build
 # nyc test coverage
 .nyc_output
 
@@ -22,9 +27,6 @@ coverage
 
 # node-waf configuration
 .lock-wscript
-
-# Compiled binary addons (http://nodejs.org/api/addons.html)
-build/Release
 
 # Dependency directories
 node_modules

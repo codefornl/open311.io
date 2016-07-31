@@ -1,0 +1,6 @@
+{
+  "__NODE_ENV__": {
+    "dialect": "sqlite",
+    "storage": "./db.__NODE_ENV__.sqlite"
+  }
+}
